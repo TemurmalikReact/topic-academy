@@ -16,14 +16,14 @@ export const Services = () => {
         </div>
         <div className={styles.services_column}>
           <div className={styles.services_column__icon}>
-            <img src={require('../../assets/chat-bubble-dynamic-color.png')} alt="" />
+            <img src={require('../../assets/rocket-dynamic-color.png')} alt="" />
           </div>
           <span>Koreys tili o’rganib o’z <b>karyerangizni</b> qurmoqchisiz</span>
         </div>
         <div className={styles.services_column}>
           <div className={styles.services_column}>
             <div className={styles.services_column__icon}>
-              <img src={require('../../assets/chat-bubble-dynamic-color.png')} alt="" />
+              <img src={require('../../assets/money-dynamic-color.png')} alt="" />
             </div>
             <span>Topik sertifikatini olib Koreyaning nufuzli universitetlariga <b>GRANT</b> yutmoqchisiz</span>
           </div>
@@ -31,7 +31,7 @@ export const Services = () => {
         <div className={styles.services_column}>
           <div className={styles.services_column}>
             <div className={styles.services_column__icon}>
-              <img src={require('../../assets/chat-bubble-dynamic-color.png')} alt="" />
+              <img src={require('../../assets/travel-dynamic-color.png')} alt="" />
             </div>
             <span>Janubiy Koreya davlatida <b>o’qish</b> va <b>ishlash uchun</b> ketmoqchisiz</span>
           </div>
@@ -39,7 +39,7 @@ export const Services = () => {
         <div className={styles.services_column}>
           <div className={styles.services_column}>
             <div className={styles.services_column__icon}>
-              <img src={require('../../assets/chat-bubble-dynamic-color.png')} alt="" />
+              <img src={require('../../assets/target-dynamic-color.png')} alt="" />
             </div>
             <span>Koreys tilini o’rta darajda bilasiz va darajangizni <b>oshirmoqchisiz</b></span>
           </div>
@@ -47,7 +47,7 @@ export const Services = () => {
         <div className={styles.services_column}>
           <div className={styles.services_column}>
             <div className={styles.services_column__icon}>
-              <img src={require('../../assets/chat-bubble-dynamic-color.png')} alt="" />
+              <img src={require('../../assets/key-dynamic-color.png')} alt="" />
             </div>
             <span>Ko’p yillardan buyon o’qib ham <b>natijaga</b> chiqa olmayapsiz</span>
           </div>
