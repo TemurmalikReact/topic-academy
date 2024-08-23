@@ -1,0 +1,69 @@
+.header {
+    padding: 8px 360px 0px 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_logo {
+        display: flex;
+        gap: 14px;
+
+        img {
+            width: 164px;
+        }
+
+        span {
+            font-family: 'Gilroy Light';
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            width: 130px;
+            padding-top: 14px;
+        }
+    }
+
+
+    &_nav {
+        display: flex;
+        align-items: center;
+        padding-top: 14px;
+        gap: 35px;
+
+        &__item {
+            a {
+                font-family: 'HelveticaNeueCyr Light';
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 0.075em;
+                text-align: left;
+                color: #333333;
+            }
+        }
+    }
+
+    &_phone {
+        padding-top: 14px;
+
+        p {
+            font-family: 'Gilroy Light';
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 25px;
+            text-align: left;
+            color: #333333;
+        }
+
+        span {
+            font-family: 'Inter';
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            text-align: left;
+        }
+    }
+}

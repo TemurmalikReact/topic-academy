@@ -1,0 +1,79 @@
+.banner {
+    padding: 0px 0px 0px 360px;
+    position: relative;
+
+    &_image {
+        position: absolute;
+        width: 59.5%;
+        right: 0;
+        top: 0;
+    }
+
+    &_text {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding-top: 73px;
+
+        span {
+            font-family: 'Montserrat';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: left;
+            color: #333333;
+        }
+    }
+
+    &_title {
+        font-family: 'Gilroy Light';
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 65px;
+        text-align: left;
+        margin-top: 23px;
+
+    }
+
+    &_content {
+        display: flex;
+        gap: 75px;
+        margin-top: 50px;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+
+            svg {
+                width: 18px;
+                height: 40px;
+            }
+
+            span {
+                font-family: 'Montserrat';
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: left;
+                color: #333333;
+            }
+        }
+    }
+
+    &_submit {
+        margin-top: 62px;
+        width: 334px;
+        
+        span {
+            margin-top: 18px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

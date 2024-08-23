@@ -1,0 +1,66 @@
+.services {
+    padding: 100px 454px 0px 454px;
+
+    &_title {
+        font-family: 'Gilroy Light';
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+        color: #333333;
+    }
+
+    &_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 80px;
+        column-gap: 100px;
+        margin-top: 70px;
+    }
+
+    &_column {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        span {
+            font-family: 'Gilroy Light';
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            text-align: center;
+            color: #333333;
+            text-align: center;
+            margin-top: 17px;
+            text-align: center;
+            display: block;
+
+            b {
+                font-family: 'Gilroy Medium';
+                font-weight: 900;
+                color: #418E8B;
+            }
+        }
+
+        &__icon {
+            background: #C5F2CBA6;
+            width: 163px;
+            height: 163px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 103px;
+            }
+        }
+    }
+
+    &_submit {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+}
