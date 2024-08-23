@@ -10,22 +10,22 @@ export const Header = () => {
       </div>
       <nav className={styles.header_nav}>
         <div className={styles.header_nav__item}>
-          <a href="">
+          <a href="#">
             Nega Biz
           </a>
         </div>
         <div className={styles.header_nav__item}>
-          <a href="">
+          <a href="#">
             Natijalar
           </a>
         </div>
         <div className={styles.header_nav__item}>
-          <a href="">
+          <a href="#">
             Kurslar
           </a>
         </div>
         <div className={styles.header_nav__item}>
-          <a href="">
+          <a href="#">
             Ko'p beriladigan savollar
           </a>
         </div>
