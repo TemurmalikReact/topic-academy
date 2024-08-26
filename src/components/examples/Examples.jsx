@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 export const Examples = () => {
     return (
         <div className={styles.examples}>
-            <div className={styles.examples_title}>TOPIK academy aniq siz uchun agar siz:</div>
+            <div className={styles.examples_title}>O’quvchilarimizning natijalari TOPIK 6 gacha</div>
             <Marquee autoFill>
                 <div className={styles.examples_content}>
                     <div className={styles.examples_column}>

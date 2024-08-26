@@ -1,0 +1,105 @@
+.request {
+    padding: 125px 0 0px 0;
+    
+    &_title {
+        font-family: 'Gilroy Light';
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    &_container {
+        display: grid;
+        grid-template-columns: 3.5fr 7.5fr;
+        padding: 0 0 0px 360px;
+        margin-top: 70px;
+        gap: 70px;
+
+        .form {
+            box-shadow: 60px 0 30px 60px rgb(255, 255, 255);
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &_text {
+                font-family: 'Gilroy Light';
+                font-size: 26px;
+                font-weight: 600;
+                line-height: 40px;
+                color: #333333;
+
+                b {
+                    font-weight: 900;
+                    color: #418E8B;
+            
+                    &.green {
+                        color: rgb(95, 242, 169);
+                    }
+                }
+            }
+
+            &_submit {
+                span {
+                    margin-top: 18px;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+
+                button {
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+
+    &_marquee {
+        z-index: -1 !important;
+    }
+
+    &_content {
+        display: flex;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    &_column {
+        width: 250px;
+        border-radius: 20px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 98.5px;
+            border-radius: 18px;
+
+            background: linear-gradient(354.14deg, #ABDDB1 4.03%, rgba(171, 221, 177, 0) 94.76%),
+                linear-gradient(69.8deg, rgba(75, 152, 149, 0.2) 24.51%, rgba(167, 223, 177, 0) 54.39%);
+
+            span {
+                font-family: 'Gilroy Light';
+                font-size: 25px;
+                font-weight: 900;
+                line-height: 32px;
+                text-align: left;
+                color: #144845;
+                padding: 8px 14px;
+                display: flex;
+                align-items: flex-end;
+                height: 100%;
+            }
+        }
+    }
+}

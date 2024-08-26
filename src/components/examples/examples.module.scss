@@ -1,5 +1,5 @@
 .examples {
-    padding: 95px 0 0 0;
+    padding: 100px 0 0 0;
 
     &_title {
         font-family: 'Gilroy Light';
@@ -7,7 +7,6 @@
         font-weight: 600;
         line-height: 44px;
         text-align: center;
-        color: #333333;
     }
 
     &_content {
@@ -19,7 +18,7 @@
 
     &_column {
         width: 300px;
-        border-radius: 21px;
+        border-radius: 25px;
         position: relative;
 
         img {

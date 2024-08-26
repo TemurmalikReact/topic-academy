@@ -1,5 +1,5 @@
 .services {
-    padding: 100px 454px 0px 454px;
+    padding: 125px 0 0px 0;
 
     &_title {
         font-family: 'Gilroy Light';
@@ -7,7 +7,6 @@
         font-weight: 600;
         line-height: 44px;
         text-align: center;
-        color: #333333;
     }
 
     &_content {
@@ -16,6 +15,7 @@
         row-gap: 80px;
         column-gap: 100px;
         margin-top: 60px;
+        padding: 0 454px 0px 454px;
     }
 
     &_column {
