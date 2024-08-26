@@ -26,7 +26,7 @@ export const Header = () => {
         </div>
         <div className={styles.header_nav__item}>
           <a href="#">
-            Ko'p beriladigan savollar
+            Savollar
           </a>
         </div>
       </nav>

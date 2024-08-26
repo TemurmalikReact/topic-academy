@@ -1,0 +1,40 @@
+.contact {
+    background: linear-gradient(to right, rgb(205, 255, 245), rgb(235, 255, 250));
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 300px;
+    margin: 100px 300px 0px 300px;
+    padding: 54px 154px;
+    border-radius: 20px;
+
+    &_content {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            font-family: 'Gilroy Light';
+            font-size: 45px;
+            font-weight: 600;
+            line-height: 60px;
+        }
+
+        &__text {
+            font-family: 'Gilroy Light';
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 30px;
+            color: #333;
+            margin-top: 30px;
+        }
+    }
+
+    &_form {
+        display: flex;
+        flex-direction: column;
+
+        input, button {
+            margin-bottom: 15px;
+        }
+    }
+
+}

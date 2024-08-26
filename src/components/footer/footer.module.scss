@@ -1,0 +1,53 @@
+.footer {
+    padding: 40px 80px;
+    background: #333;
+    margin-top: 150px;
+
+    &_top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &_nav {
+        display: flex;
+        align-items: center;
+        padding-top: 14px;
+        gap: 50px;
+
+        &__item {
+            a {
+                font-family: 'HelveticaNeueCyr Light';
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 0.075em;
+                text-align: left;
+                color: #fff;
+            }
+        }
+    }
+
+    &_socials {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        i {
+            font-size: 40px;
+            color: #fff;
+        }
+    }
+
+    &_bottom {
+        text-align: center;
+
+        img {
+            width: 200px;
+        }
+    }
+}

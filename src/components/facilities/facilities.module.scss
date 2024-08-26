@@ -1,0 +1,72 @@
+.facilities {
+    padding: 100px 0 0px 0;
+
+    &_title {
+        font-family: 'Gilroy Light';
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    &_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        margin-top: 50px;
+        padding: 0 360px 0px 360px;
+    }
+
+    &_column {
+        box-shadow: 
+        0 0 0 0 rgba(0, 0, 0, 0), /* No shadow at the top */
+        0 1px 3px rgba(0, 0, 0, 0), /* Small shadow on the sides */
+        0 10px 30px rgba(95, 172, 170, 0.2);
+        ;
+        padding: 25px 25px 40px 25px;
+        border-radius: 15px;
+
+        &__icon {
+            background: #4b9895;
+            width: 90px;
+            height: 90px;
+            font-family: 'Montserrat';
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 55px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #5FACA9;
+            box-shadow: 0px 3px 0px 0px #418E8B;
+            color: #FFFFFF;
+            border: none;
+            outline: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-family: 'Gilroy Light';
+            font-size: 27px;
+            font-weight: 900;
+            line-height: 35px;
+            margin-top: 20px;
+        }
+
+        &__text {
+            font-family: 'Gilroy Light';
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 25px;
+            color: #333;
+            margin-top: 30px;
+
+        }
+    }
+
+    &_submit {
+    }
+}
