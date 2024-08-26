@@ -36,10 +36,9 @@ export const Videoblock = () => {
                     </div>
                 </div>
 
+
                 <div className={styles.videoblock_frame}>
-                    <iframe
-                        src="https://www.youtube.com/watch?v=zj355hKD3lY">
-                    </iframe>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/xvFZjo5PgG0" title="Rick Roll (Different link + no ads)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div className={styles.videoblock_frame__title}>GKS granti haqida to’liq siz uchun tayyorlagan video suhbatimizda bilib oling! ...
                     </div>
                 </div>
