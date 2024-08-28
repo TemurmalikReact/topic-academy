@@ -1,15 +1,21 @@
 {
-    "header_welcome_message": "Центр корейского языка и подготовки к TOPIK в Ташкенте",
+    "header_welcome_message": "Центр изучения корейского языка и ТОПИК в Ташкенте",
     "header_why_us": "Почему мы",
     "header_results": "Результаты",
     "header_courses": "Курсы",
     "header_faq": "Вопросы",
-    "header_contact_now": "Свяжитесь с нами",
-    "banner_message": "Начните говорить по-корейски за 3 месяца",
-    "banner_title": "Возможность учиться в университетах Южной Кореи с грантом до 100%",
-    "banner_content_item1": "Мы поможем вам достичь 6 уровня TOPIK за 5 месяцев",
-    "banner_content_item2": "Достигните высокого уровня в TOPIK и получите возможности учиться и работать в Южной Корее",
-    "banner_button": "ЗАПИСАТЬСЯ НА БЕСПЛАТНЫЙ УРОК",
-    "banner_subtext": "Запишитесь на первый урок бесплатно!"
+    "header_contact_now": "Свяжитесь сейчас",
+    "banner_message": "Начните говорить на корейском за 3 месяца",
+    "banner_title1": "Учеба в университетах Кореи",
+    "banner_title2": "возможность получения",
+    "banner_title3": "100% гранта",
+    "banner_content_item_left1": "Поможем Достигнуть",
+    "banner_content_item_left2": "Уровень 6 на TOPIC",
+    "banner_content_item_left3": "за 5 месяцев",
+    "banner_content_item_right1": "Получи высокий уровень",
+    "banner_content_item_right2": "ТОПИК, учись и работай",
+    "banner_content_item_right3": "в Южной Корее",
+    "banner_button": "НА БЕСПЛАТНЫЙ УРОК",
+    "banner_subtext": "На первый урок бесплатно!",
+    "services_title": "Академия TOPIK точно для вас, если вы:"
 }
-  

@@ -6,9 +6,16 @@
     "header_faq": "Savollar",
     "header_contact_now": "Hoziroq bog’laning",
     "banner_message": "3 oyda Koreys tilida gapirishni boshlang",
-    "banner_title": "Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati",
-    "banner_content_item1": "5 oyda Topikdan 6 darajagacha olishda yordam beramiz",
-    "banner_content_item2": "Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati",
+    "banner_title1": "Janubiy Koreya Universitetlarida",
+    "banner_title2": "100% gacha grant asosida",
+    "banner_title3": "o’qish imkoniyati",
+    "banner_content_item_left1": "5 oyda Topikdan 6",
+    "banner_content_item_left2": "darajagacha olishda",
+    "banner_content_item_left3": "yordam beramiz",
+    "banner_content_item_right1": "Topikdan yuqori darajani qo’lga",
+    "banner_content_item_right2": "kiritib, Janubiy Koreyada o’qish",
+    "banner_content_item_right3": "va ishlash imkoniyati",
     "banner_button": "BEPUL DARSGA YOZILISH",
-    "banner_subtext": "Birinchi darsga bepul yoziling!"
+    "banner_subtext": "Birinchi darsga bepul yoziling!",
+    "services_title": "TOPIK academy aniq siz uchun agar siz:"
 }

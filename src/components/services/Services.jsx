@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from "./services.module.scss"
+import { useTranslation } from 'react-i18next';
 
 export const Services = () => {
+  const { t } = useTranslation(); 
+
   return (
     <div className={styles.services}>
-      <div className={styles.services_title}>TOPIK academy aniq siz uchun agar siz:</div>
+      <div className={styles.services_title}>{t('services_title')}</div>
       <div className={styles.services_content}>
         <div className={styles.services_column}>
           <div className={styles.services_column}>

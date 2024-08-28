@@ -1,15 +1,21 @@
 {
-    "header_welcome_message": "Korean Language and TOPIK Training Center in Tashkent",
-    "header_why_us": "Why Us",
-    "header_results": "Results",
-    "header_courses": "Courses",
-    "header_faq": "FAQ",
-    "header_contact_now": "Contact Now",
-    "banner_message": "Start speaking Korean in 3 months",
-    "banner_title": "Opportunity to study in South Korean universities with up to 100% scholarship",
-    "banner_content_item1": "We help you achieve up to level 6 in TOPIK in 5 months",
-    "banner_content_item2": "Achieve a high level in TOPIK and gain opportunities to study and work in South Korea",
-    "banner_button": "SIGN UP FOR A FREE LESSON",
-    "banner_subtext": "Sign up for the first lesson for free!"
-  }
-  
+  "header_welcome_message": "Korean Language and TOPIK Prep Center in Tashkent",
+  "header_why_us": "Why Us",
+  "header_results": "Results",
+  "header_courses": "Courses",
+  "header_faq": "FAQs",
+  "header_contact_now": "Contact Us Now",
+  "banner_message": "Start Speaking Korean in 3 Months",
+  "banner_title1": "Study at South Korean Universities",
+  "banner_title2": "With up to 100% Scholarship",
+  "banner_title3": "Opportunities",
+  "banner_content_item_left1": "Help to reach TOPIK ",
+  "banner_content_item_left2": "Level 6 in 5 months",
+  "banner_content_item_left3": "with our support",
+  "banner_content_item_right1": "Achieve a high TOPIK level",
+  "banner_content_item_right2": "and study in South Korea",
+  "banner_content_item_right3": "with work opportunities",
+  "banner_button": "SIGN UP FOR FREE CLASS",
+  "banner_subtext": "Enroll in your first class for free!",
+  "services_title": "TOPIK Academy is for you if you:"
+}

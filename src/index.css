@@ -45,7 +45,7 @@ button.gradient-button {
   width: 334px;
   height: 75px;
   border-radius: 70px;
-  font-family: 'Gill';
+  font-family: 'Gilroy Light';
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.075em;
@@ -63,7 +63,7 @@ button.gradient-button {
 button.gradient-button.medium {
   width: 180px;
   height: 42px;
-  font-family: 'Gill';
+  font-family: 'Gilroy Light';
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.05em;
