@@ -12,7 +12,7 @@ export const Plan = () => {
                         <div className={styles.plan_card__image}>
                             <img src={require('../../assets/course1.png')} alt="" />
                             <div className={styles.plan_card__header}>
-                                <span>Intiensive</span>
+                                <span>Intensive</span>
                                 <div className={styles.tag}>Davomiyligi: 5 oy</div>
                             </div>
                         </div>

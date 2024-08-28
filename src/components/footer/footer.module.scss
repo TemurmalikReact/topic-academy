@@ -2,6 +2,7 @@
     padding: 40px 80px;
     background: #333;
     margin-top: 150px;
+    cursor: pointer;
 
     &_top {
         display: flex;
@@ -32,6 +33,10 @@
                 letter-spacing: 0.075em;
                 text-align: left;
                 color: #fff;
+
+                &:hover {
+                    color: #888;
+                }
             }
         }
     }
@@ -44,6 +49,10 @@
         i {
             font-size: 40px;
             color: #fff;
+
+            &:hover {
+                color: #888;
+            }
         }
     }
 

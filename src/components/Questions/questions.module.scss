@@ -17,7 +17,8 @@
         display: flex;
         justify-content: space-between;
         padding: 40px 0 20px 0;
-
+        cursor: pointer;
+        
         &_container {
             border-bottom: 1px solid #ccc;
         }

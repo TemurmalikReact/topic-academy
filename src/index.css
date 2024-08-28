@@ -41,6 +41,10 @@
   color: #000;
 }
 
+button {
+  cursor: pointer;
+}
+
 button.gradient-button {
   width: 334px;
   height: 75px;
@@ -59,6 +63,11 @@ button.gradient-button {
   justify-content: center;
   align-items: center;
 }
+
+button.gradient-button:hover {
+  background: linear-gradient(90deg, rgb(95, 172, 169) 0%, rgb(95, 172, 169) 50.57%, rgb(95, 172, 169) 100%);
+}
+
 
 button.gradient-button.medium {
   width: 180px;
