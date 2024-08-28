@@ -11,7 +11,7 @@
 
     &_container {
         display: grid;
-        grid-template-columns: 3.5fr 7.5fr;
+        grid-template-columns: 3.5fr 8.5fr;
         padding: 0 0 0px 360px;
         margin-top: 70px;
         gap: 70px;
@@ -41,6 +41,9 @@
             }
 
             &_submit {
+                width: fit-content;
+
+
                 span {
                     margin-top: 18px;
                     font-family: 'Montserrat';
@@ -48,6 +51,9 @@
                     font-weight: 400;
                     line-height: 28px;
                     text-align: left;
+                    display: block;
+                    width: 100%;
+                    
                 }
 
                 button {
@@ -65,6 +71,7 @@
         display: flex;
         gap: 20px;
         padding: 0 10px;
+        overflow: hidden;
     }
 
     &_column {
@@ -102,4 +109,311 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 1919px) {
+    .request {
+        padding: 100px 0 0px 0;
+        
+        &_title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    
+        &_container {
+            padding: 0 0 0px 160px;
+            margin-top: 40px;
+            gap: 40px;
+            grid-template-columns: 3fr 9fr;
+    
+            .form {
+                box-shadow: 40px 0 40px 40px rgb(255, 255, 255);
+    
+                &_text {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+    
+                &_submit {
+                    span {
+                        margin-top: 15px;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+    
+                    button {
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    
+        &_content {
+            gap: 16px;
+            padding: 0 8px;
+        }
+    
+        &_column {
+            width: 200px;
+            border-radius: 14px;
+    
+            &__footer {
+                height: 80px;
+                border-radius: 14px;
+    
+                span {
+                    font-size: 20px;
+                    line-height: 25px;
+                    padding: 6px 12px;
+                }
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 1367px) {
+    .request {
+        padding: 60px 0 0px 0;
+        
+        &_title {
+            font-size: 23px;
+            line-height: 30px;
+        }
+    
+        &_container {
+            padding: 0 0 0px 60px;
+            margin-top: 40px;
+            gap: 40px;
+            grid-template-columns: 3fr 9fr;
+    
+            .form {
+                box-shadow: 40px 0 40px 40px rgb(255, 255, 255);
+    
+                &_text {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+    
+                &_submit {
+                    span {
+                        margin-top: 15px;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+    
+                    button {
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    
+        &_content {
+            gap: 16px;
+            padding: 0 8px;
+        }
+    
+        &_column {
+            width: 200px;
+            border-radius: 14px;
+    
+            &__footer {
+                height: 80px;
+                border-radius: 14px;
+    
+                span {
+                    font-size: 20px;
+                    line-height: 25px;
+                    padding: 6px 12px;
+                }
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 1024px) {
+    .request {
+        padding: 50px 0 0px 0;
+        
+        &_title {
+            font-size: 21px;
+            line-height: 27px;
+        }
+    
+        &_container {
+            padding: 0 0 0px 30px;
+            margin-top: 30px;
+            gap: 30px;
+            grid-template-columns: 3.5fr 8.5fr;
+    
+            .form {
+                box-shadow: 30px 0 30px 30px rgb(255, 255, 255);
+    
+                &_text {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+    
+                &_submit {
+                    span {
+                        margin-top: 11px;
+                        font-size: 11px;
+                        line-height: 20px;
+                    }
+    
+                    button {
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    
+        &_content {
+            gap: 14px;
+            padding: 0 7px;
+        }
+    
+        &_column {
+            width: 166px;
+            border-radius: 12px;
+    
+            &__footer {
+                height: 67px;
+                border-radius: 12px;
+    
+                span {
+                    font-size: 17px;
+                    line-height: 20px;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .request {
+        padding: 30px 0 0px 0;
+        
+        &_title {
+            font-size: 20px;
+            line-height: 25px;
+            text-align: left;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+        &_container {
+            padding: 0;
+            margin-top: 30px;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+    
+            .form {
+                box-shadow: none;
+                padding-left: 15px;
+                padding-right: 15px;
+
+                &_text {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+    
+                &_submit {
+                    span {
+                        margin-top: 11px;
+                        font-size: 11px;
+                        line-height: 20px;
+                    }
+    
+                    button {
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    
+        &_content {
+            gap: 14px;
+            padding: 0 7px;
+        }
+    
+        &_column {
+            width: 166px;
+            border-radius: 12px;
+    
+            &__footer {
+                height: 67px;
+                border-radius: 12px;
+    
+                span {
+                    font-size: 17px;
+                    line-height: 20px;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .request {
+        padding: 30px 0 0px 0;
+        
+        &_title {
+            font-size: 13px;
+            line-height: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+        &_container {
+            margin-top: 20px;
+            gap: 32px;
+    
+            .form {
+                padding-left: 15px;
+                padding-right: 15px;
+                
+                &_text {
+                    font-size: 13px;
+                    line-height: 16px;
+                }
+    
+                &_submit {
+                    span {
+                        margin-top: 15px;
+                        font-size: 10px;
+                        line-height: 15px;
+                    }
+    
+                    button {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    
+        &_content {
+            gap: 12px;
+            padding: 0 6px;
+        }
+    
+        &_column {
+            width: 145px;
+            border-radius: 10px;
+
+            &__footer {
+                height: 45px;
+                border-radius: 10px;
+
+                span {
+                    font-size: 11px;
+                    line-height: 15px;
+                    padding: 3px 6px;
+                }
+            }
+        }
+    }    
 }

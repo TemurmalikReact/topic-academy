@@ -17,7 +17,6 @@ function App() {
       <Header />
       <Banner />
       <Services />
-      {/* 
       <Examples />
       <Videoblock />
       <Request />
@@ -25,7 +24,7 @@ function App() {
       <Facilities />
       <Questions />
       <Contact />
-      <Footer /> */}
+      <Footer /> 
     </div>
   );
 }

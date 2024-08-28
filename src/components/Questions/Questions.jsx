@@ -3,10 +3,10 @@ import styles from "./questions.module.scss"
 
 export const Questions = () => {
   const accordions = [
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?' },
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?' },
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?' },
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?' },
+    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?' },
+    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?' },
+    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?' },
+    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?", text: 'O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlaymanmi?' },
   ]
 
   const [activeIndex, setActiveIndex] = useState(null);

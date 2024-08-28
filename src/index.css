@@ -102,6 +102,20 @@ button.gradient-button.fit {
     box-shadow: 0px 2px 0px 0px #418E8B;
     letter-spacing: 0.05em;
   }
+
+  button.gradient-button.medium {
+    width: 140px;
+    height: 35px;
+    font-size: 8px;
+  }
+
+  .input {
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 0 25px;
+  }
 }
 
 @media screen and (max-width: 1367px) {
@@ -110,6 +124,12 @@ button.gradient-button.fit {
     height: 46px;
     font-size: 13px;
   }
+
+  .input {
+    height: 46px;
+    font-size: 13px;
+    padding: 0 20px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -117,6 +137,18 @@ button.gradient-button.fit {
     width: 200px;
     height: 40px;
     font-size: 11px;
+  }
+
+  button.gradient-button.medium {
+    width: 110px;
+    height: 30px;
+    font-size: 7px;
+  }
+
+  .input {
+    height: 40px;
+    font-size: 12px;
+    padding: 0 16px;
   }
 }
 
